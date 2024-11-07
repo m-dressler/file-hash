@@ -3,5 +3,8 @@
   "version": "0.0.0",
   "license": "ISC",
   "exports": "./mod.ts",
-  "exclude": [".github/", ".gitignore"]
+  "exclude": [".github/", ".gitignore"],
+  "imports": {
+    "@std/crypto": "jsr:@std/crypto@^1.0.3"
+  }
 }
